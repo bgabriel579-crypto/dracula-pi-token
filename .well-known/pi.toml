@@ -1,1 +1,19 @@
+# Pi Network Token Configuration File
+# This file should be hosted at: https://dracula-pi-token.github.io/.well-known/pi.toml
+# Make sure it's accessible via HTTPS and served as plain text (content-type: text/plain)
+
+[[CURRENCIES]]
+code="DRACULA"
+issuer="GDT7LVZ6E57QO2SDRQ7A4Z5Z5KTPJAIA4OCEBEXCG75Q7HX5P4WXINLH"
+name="Dracula Token"
+desc="The official Dracula token on Pi Network Testnet. This token represents the Dracula ecosystem."
+image="https://dracula-pi-token.github.io/dracula-icon.svg"
+
+# If you have multiple tokens, add additional [[CURRENCIES]] sections below:
+# [[CURRENCIES]]
+# code="YOUR_SECOND_TOKEN"
+# issuer="YOUR_ISSUER_PUBLIC_KEY"
+# name="Your Second Token Name"
+# desc="Description of your second token"
+# image="https://example.com/second-token-icon.png"
 
